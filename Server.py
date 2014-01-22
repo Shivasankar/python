@@ -13,7 +13,7 @@ while True:
 	print 'Got connection from', addr
 	#c.send('Hello World')
 	print c.recv(1024)
-	msg = raw_input("Enter Message")
+	msg = raw_input('Enter Message')
 	c.send(msg)
 	if msg == 'end':
 		quit()

@@ -9,7 +9,7 @@ msg1 = ''
 s.connect((host, port))
 #s.send('Hello World')
 while True:
-	msg = raw_input("Enter Message")
+	msg = raw_input('Enter Message')
 	s.send(msg)
 	msg1 = s.recv(1024)
 	print msg1

@@ -1,5 +1,7 @@
 # Assignment 2
 # This is a Client program for simple chat application.
+
+
 import socket               # Import socket module
 
 s = socket.socket()         # Create a socket object
